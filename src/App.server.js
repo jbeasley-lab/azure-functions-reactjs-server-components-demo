@@ -66,7 +66,7 @@ export default function App({ selectedId, isEditing, searchText, userInfo }) {
               <p>
                 To view and edit notes, log in with one of these providers: <br />&nbsp;
               </p>
-              <StaticWebAuthLogins  aad={true} twitter={false} facebook={false} github={false} customProviders= {[ id: "auth0", name: "auth0" ]} />
+              <StaticWebAuthLogins  aad={true} twitter={false} facebook={false} github={false} customProviders= { "auth0"} />
             </section>
       }
     </div>
