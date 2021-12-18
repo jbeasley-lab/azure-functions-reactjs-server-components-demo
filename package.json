@@ -2,8 +2,7 @@
   "name": "react-notes",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-  },
+  "engines": {},
   "license": "MIT",
   "dependencies": {
     "@aaronpowell/react-static-web-apps-auth": "git+https://github.com/anthonychu/react-static-web-apps-auth.git#react-server-components",
