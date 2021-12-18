@@ -25,6 +25,7 @@ jobs:
              npm prune --production
              rm package.json package-lock.json
              ls -la build
+             cp staticwebapp.config.json build/.
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
