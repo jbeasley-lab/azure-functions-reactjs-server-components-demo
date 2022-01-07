@@ -21,6 +21,7 @@
     "@actions/core": "^1.2.6",
     "@azure/arm-containerinstance": "^5.4.0",
     "@types/q": "^1.5.2",
+    "applicationinsights": "^2.2.0",
     "azure-actions-webclient": "^1.0.10"
   },
   "devDependencies": {
